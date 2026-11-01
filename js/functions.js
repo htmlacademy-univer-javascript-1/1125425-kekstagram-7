@@ -1,3 +1,5 @@
+/* eslint-disable no-console */
+/* eslint-disable semi */
 const timeToMinutes = (time) => {
   const splitTime = time.split(':');
   return Number(splitTime[0] * 60) + Number(splitTime[1]);
